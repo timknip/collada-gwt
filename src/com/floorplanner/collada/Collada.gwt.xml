@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='collada'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+  <inherits name='com.google.gwt.xml.XML' />
+  <inherits name='com.google.gwt.inject.Inject' />
+  
+  <!-- Inherit the default GWT style sheet.  You can change       -->
+  <!-- the theme of your GWT application by uncommenting          -->
+  <!-- any one of the following lines.                            -->
+  <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+  <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+
+  <!-- Other module inherits    -->
+  <inherits name="org.collada._2005._11.colladaschema.Colladaschema" />
+  <inherits name="com.mouchel.gwt.xpath.xpath" />
+  <!-- For development a default of `DEBUG` is recommended -->
+  <inherits name="com.allen_sauer.gwt.log.gwt-log-DEBUG" />
+  
+  <!-- Loggers Enabled by default -->
+  <set-property name="log_ConsoleLogger" value="ENABLED" />
+  <set-property name="log_DivLogger" value="DISABLED" />
+  <set-property name="log_FirebugLogger" value="ENABLED" />
+  <set-property name="log_GWTLogger" value="ENABLED" />
+  <set-property name="log_SystemLogger" value="DISABLED" />
+  
+  <!-- Loggers Disabled by default -->
+  <set-property name="log_RemoteLogger" value="DISABLED" />
+  <set-property name="log_WindowLogger" value="DISABLED" />
+  
+  <!-- Specify the app entry point class.                         -->
+  <entry-point class='com.floorplanner.collada.GwtColladaExample'/>
+
+  <!-- Specify the paths for translatable code                    -->
+  <source path=''/>
+  <source path='core'/>
+
+</module>

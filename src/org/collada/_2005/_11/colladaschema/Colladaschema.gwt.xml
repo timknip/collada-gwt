@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='fpmath'>
+  <inherits name='com.google.gwt.core.Core'/>
+  <inherits name="com.googlecode.gwt.math.Math" />
+  <inherits name="com.floorplanner.collada.Collada" />
+  <source path=''/>
+</module>
